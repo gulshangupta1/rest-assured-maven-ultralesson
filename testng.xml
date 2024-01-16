@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Test Suite">
+    <test name="APITests">
+        <listeners>
+            <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+        </listeners>
+        <classes>
+            <class name="ResponseDeserializationTest"/>
+        </classes>
+    </test>
+</suite>

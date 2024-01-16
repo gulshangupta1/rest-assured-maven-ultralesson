@@ -1,0 +1,6 @@
+/logs
+/.allure
+/.idea
+/allure-results
+/allure-report
+/target
